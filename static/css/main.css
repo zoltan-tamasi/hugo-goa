@@ -17,11 +17,11 @@ a:link
 {
     text-decoration: none;
 
-    color: #526d7a;
+    color: #60879b;
 }
 body
 {
-    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -30,7 +30,7 @@ body
     min-height: 100%;
     margin: 0;
 
-    background-color: #fcfcfc;
+    background-color: #dadfe1;
 }
 html
 {
@@ -42,7 +42,7 @@ html
 }
 .author
 {
-    color: #444;
+    color: #252b2d;
 }
 .author h1,
 .author h2,
@@ -52,11 +52,11 @@ html
 .author h6,
 .author p
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
 }
 .category
 {
-    color: #966 !important;
+    color: #5c6a70;
 }
 .container
 {
@@ -72,11 +72,11 @@ html
 }
 div.content
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
 
-    color: #777;
+    color: #5c6a70;
 }
 .copyright
 {
@@ -86,13 +86,14 @@ div.content
 }
 .description
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200;
-    color: #bbb;
+    color: #5c6a70;
+    line-height: 1.7em;
 }
 .error
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     margin-top: 100px;
 }
@@ -100,28 +101,28 @@ div.content
 {
     font-size: 80px;
 
-    color: #bbb;
+    color: #5c6a70;
 }
 .error p
 {
     margin-top: 150px;
 
-    color: #777;
+    color: #5c6a70;
 }
 .excerpt
 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 200;
 
-    color: #555;
+    color: #5c6a70;
     margin-bottom: 20px;
 }
 .footer
 {
     margin-top: 10px;
-
-    color: #bbb;
+    border-top: 1px solid #c7ced1;
+    color: #5c6a70;
 }
 .header
 {
@@ -140,9 +141,9 @@ div.content
 }
 .intro
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
     font-weight: 200;
-    color: #777;
+    color: #5c6a70;
 }
 h3.intro
 {
@@ -150,7 +151,7 @@ h3.intro
 }
 .list
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     margin-top: 50px;
 }
@@ -160,7 +161,7 @@ h3.intro
 }
 .list-entry
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
     font-size: 25px;
     font-weight: 400;
 
@@ -183,40 +184,40 @@ h3.intro
 }
 .menu-item
 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
 
     text-decoration: none;
 
-    color: #966 !important;
+    color: #5c6a70;
 }
 .meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #5c6a70;
 }
 a.meta
 {
-    color: #966;
+    color: #5c6a70;
 }
 h6.meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #5c6a70;
 }
 section.meta {
     margin-top: 
 }
 .powered
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
@@ -231,16 +232,28 @@ section.meta {
 }
 .title
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
     font-weight: 400;
 
-    color: #555;
+    color: #5c6a70;
 }
 header.title
 {
     margin-top: 50px;
     padding: 0 15px;
 }
+table {
+    border: 0.25px solid;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+th, td {
+    width: 150px;
+    padding: 10px;
+    border-top: 0.25px solid;
+}
+
 @media (max-width: 991px)
 {
     .header
@@ -250,7 +263,7 @@ header.title
     }
     .list
     {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
 
         margin-top: 30px;
     }
